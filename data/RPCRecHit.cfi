@@ -1,0 +1,5 @@
+module rpcrechitbuilder = RPCRecHitProducer{
+	string rpcDigiLabel = 'MuonRPCDigi'
+	string recAlgo = 'RPCRecHitStandardAlgo'
+	PSet recAlgoConfig = {}
+}
