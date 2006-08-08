@@ -1,5 +1,2 @@
-module rpcRecHits =  RPCRecHitProducer{
-	string rpcDigiLabel = 'muonRPCDigis'
-	string recAlgo = 'RPCRecHitStandardAlgo'
-	PSet recAlgoConfig = {}
-}
+#FIXME: please use the file below, this cfi will disappear
+include "RecoLocalMuon/RPCRecHit/data/rpcRecHits.cfi"
