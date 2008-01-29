@@ -1,5 +1,5 @@
 module rpcRecHits =  RPCRecHitProducer{
-	string rpcDigiLabel = 'muonRPCDigis'
+	InputTag rpcDigiLabel = muonRPCDigis
 	string recAlgo = 'RPCRecHitStandardAlgo'
 	PSet recAlgoConfig = {}
 }
